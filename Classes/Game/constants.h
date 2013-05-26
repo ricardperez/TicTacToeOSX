@@ -18,6 +18,7 @@ const int BOARD_SIZE = 3;
 
 typedef enum {UP=0, DOWN, LEFT, RIGHT, UP_LEFT, UP_RIGHT, DOWN_LEFT, DOWN_RIGHT} Direction;
 typedef enum { EASY, NORMAL, HARD } AILevel;
+typedef enum {WIN, LOSE, DRAW} GameStatus;
 
 typedef struct
 {

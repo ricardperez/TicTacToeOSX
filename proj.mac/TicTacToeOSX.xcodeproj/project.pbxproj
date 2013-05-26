@@ -10,15 +10,15 @@
 		1514DA3F163004980095A81C /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 1514DA3C163004980095A81C /* ipad */; };
 		1514DA40163004980095A81C /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 1514DA3D163004980095A81C /* ipadhd */; };
 		1514DA41163004980095A81C /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 1514DA3E163004980095A81C /* iphone */; };
-		19E65777174FB94200CE26D7 /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E6576E174FB94200CE26D7 /* ai.cpp */; };
-		19E65778174FB94200CE26D7 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E65770174FB94200CE26D7 /* board.cpp */; };
-		19E65779174FB94200CE26D7 /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E65772174FB94200CE26D7 /* box.cpp */; };
-		19E6577A174FB94200CE26D7 /* manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E65775174FB94200CE26D7 /* manager.cpp */; };
-		19E6577D174FB9C200CE26D7 /* TicTacToeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E6577B174FB9C200CE26D7 /* TicTacToeScene.cpp */; };
-		19E65782174FBE8900CE26D7 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E65781174FBE8900CE26D7 /* square.png */; };
-		19E65785174FCCEF00CE26D7 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E65783174FCCEF00CE26D7 /* nought.png */; };
-		19E65786174FCCEF00CE26D7 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E65784174FCCEF00CE26D7 /* cross.png */; };
-		19E6578C175020E300CE26D7 /* EndGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E6578A175020E200CE26D7 /* EndGameScene.cpp */; };
+		19B6E977175227A40095F8B0 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B6E974175227A40095F8B0 /* cross.png */; };
+		19B6E978175227A40095F8B0 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B6E975175227A40095F8B0 /* nought.png */; };
+		19B6E979175227A40095F8B0 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B6E976175227A40095F8B0 /* square.png */; };
+		19B6E988175227FB0095F8B0 /* EndGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B6E97A175227FB0095F8B0 /* EndGameScene.cpp */; };
+		19B6E989175227FB0095F8B0 /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B6E97D175227FB0095F8B0 /* ai.cpp */; };
+		19B6E98A175227FB0095F8B0 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B6E97F175227FB0095F8B0 /* board.cpp */; };
+		19B6E98B175227FB0095F8B0 /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B6E981175227FB0095F8B0 /* box.cpp */; };
+		19B6E98C175227FB0095F8B0 /* manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B6E984175227FB0095F8B0 /* manager.cpp */; };
+		19B6E98D175227FB0095F8B0 /* TicTacToeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B6E986175227FB0095F8B0 /* TicTacToeScene.cpp */; };
 		19E65796175028C200CE26D7 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E657931750283D00CE26D7 /* libcocos2dx.a */; };
 		41BC70AD15BF7CCE006A0A6C /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 41BC70AC15BF7CCE006A0A6C /* Icon.icns */; };
 		41CD6C6515BF7574005E6F29 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6C6315BF7574005E6F29 /* AppController.mm */; };
@@ -61,22 +61,22 @@
 		1514DA3D163004980095A81C /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipadhd; path = ../Resources/ipadhd; sourceTree = "<group>"; };
 		1514DA3E163004980095A81C /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iphone; path = ../Resources/iphone; sourceTree = "<group>"; };
 		15A6969B1630E63B00D7A229 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacros.h; path = ../Classes/AppMacros.h; sourceTree = "<group>"; };
-		19E6576E174FB94200CE26D7 /* ai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ai.cpp; sourceTree = "<group>"; };
-		19E6576F174FB94200CE26D7 /* ai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai.h; sourceTree = "<group>"; };
-		19E65770174FB94200CE26D7 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
-		19E65771174FB94200CE26D7 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
-		19E65772174FB94200CE26D7 /* box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box.cpp; sourceTree = "<group>"; };
-		19E65773174FB94200CE26D7 /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
-		19E65774174FB94200CE26D7 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
-		19E65775174FB94200CE26D7 /* manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = manager.cpp; sourceTree = "<group>"; };
-		19E65776174FB94200CE26D7 /* manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manager.h; sourceTree = "<group>"; };
-		19E6577B174FB9C200CE26D7 /* TicTacToeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TicTacToeScene.cpp; sourceTree = "<group>"; };
-		19E6577C174FB9C200CE26D7 /* TicTacToeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeScene.h; sourceTree = "<group>"; };
-		19E65781174FBE8900CE26D7 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
-		19E65783174FCCEF00CE26D7 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
-		19E65784174FCCEF00CE26D7 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
-		19E6578A175020E200CE26D7 /* EndGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EndGameScene.cpp; sourceTree = "<group>"; };
-		19E6578B175020E300CE26D7 /* EndGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGameScene.h; sourceTree = "<group>"; };
+		19B6E974175227A40095F8B0 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		19B6E975175227A40095F8B0 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		19B6E976175227A40095F8B0 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		19B6E97A175227FB0095F8B0 /* EndGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EndGameScene.cpp; path = ../Classes/EndGameScene.cpp; sourceTree = "<group>"; };
+		19B6E97B175227FB0095F8B0 /* EndGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndGameScene.h; path = ../Classes/EndGameScene.h; sourceTree = "<group>"; };
+		19B6E97D175227FB0095F8B0 /* ai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ai.cpp; sourceTree = "<group>"; };
+		19B6E97E175227FB0095F8B0 /* ai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai.h; sourceTree = "<group>"; };
+		19B6E97F175227FB0095F8B0 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
+		19B6E980175227FB0095F8B0 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
+		19B6E981175227FB0095F8B0 /* box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box.cpp; sourceTree = "<group>"; };
+		19B6E982175227FB0095F8B0 /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		19B6E983175227FB0095F8B0 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		19B6E984175227FB0095F8B0 /* manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = manager.cpp; sourceTree = "<group>"; };
+		19B6E985175227FB0095F8B0 /* manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manager.h; sourceTree = "<group>"; };
+		19B6E986175227FB0095F8B0 /* TicTacToeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TicTacToeScene.cpp; path = ../Classes/TicTacToeScene.cpp; sourceTree = "<group>"; };
+		19B6E987175227FB0095F8B0 /* TicTacToeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicTacToeScene.h; path = ../Classes/TicTacToeScene.h; sourceTree = "<group>"; };
 		19E6578E1750283D00CE26D7 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "../../../lib/cocos2d-2.1rc0-x-2.1.3/cocos2dx/proj.mac/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
 		41BC70AC15BF7CCE006A0A6C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		41CD6C5115BF748C005E6F29 /* TicTacToeOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,30 +125,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19E6576D174FB94200CE26D7 /* Game */ = {
+		19B6E973175227A40095F8B0 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				19E6576E174FB94200CE26D7 /* ai.cpp */,
-				19E6576F174FB94200CE26D7 /* ai.h */,
-				19E65770174FB94200CE26D7 /* board.cpp */,
-				19E65771174FB94200CE26D7 /* board.h */,
-				19E65772174FB94200CE26D7 /* box.cpp */,
-				19E65773174FB94200CE26D7 /* box.h */,
-				19E65774174FB94200CE26D7 /* constants.h */,
-				19E65775174FB94200CE26D7 /* manager.cpp */,
-				19E65776174FB94200CE26D7 /* manager.h */,
+				19B6E974175227A40095F8B0 /* cross.png */,
+				19B6E975175227A40095F8B0 /* nought.png */,
+				19B6E976175227A40095F8B0 /* square.png */,
 			);
-			path = Game;
+			name = images;
+			path = ../Resources/images;
 			sourceTree = "<group>";
 		};
-		19E6577E174FBC7400CE26D7 /* images */ = {
+		19B6E97C175227FB0095F8B0 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				19E65783174FCCEF00CE26D7 /* nought.png */,
-				19E65784174FCCEF00CE26D7 /* cross.png */,
-				19E65781174FBE8900CE26D7 /* square.png */,
+				19B6E97D175227FB0095F8B0 /* ai.cpp */,
+				19B6E97E175227FB0095F8B0 /* ai.h */,
+				19B6E97F175227FB0095F8B0 /* board.cpp */,
+				19B6E980175227FB0095F8B0 /* board.h */,
+				19B6E981175227FB0095F8B0 /* box.cpp */,
+				19B6E982175227FB0095F8B0 /* box.h */,
+				19B6E983175227FB0095F8B0 /* constants.h */,
+				19B6E984175227FB0095F8B0 /* manager.cpp */,
+				19B6E985175227FB0095F8B0 /* manager.h */,
 			);
-			path = images;
+			name = Game;
+			path = ../Classes/Game;
 			sourceTree = "<group>";
 		};
 		19E6578F1750283D00CE26D7 /* Products */ = {
@@ -179,12 +181,11 @@
 				41CD6C7215BF76FB005E6F29 /* AppDelegate.h */,
 				41CD6C7315BF76FB005E6F29 /* HelloWorldScene.cpp */,
 				41CD6C7415BF76FB005E6F29 /* HelloWorldScene.h */,
-				19E6576D174FB94200CE26D7 /* Game */,
-				19E6577B174FB9C200CE26D7 /* TicTacToeScene.cpp */,
-				19E6577C174FB9C200CE26D7 /* TicTacToeScene.h */,
-				19E6578A175020E200CE26D7 /* EndGameScene.cpp */,
-				19E6578B175020E300CE26D7 /* EndGameScene.h */,
-				19E6577E174FBC7400CE26D7 /* images */,
+				19B6E97A175227FB0095F8B0 /* EndGameScene.cpp */,
+				19B6E97B175227FB0095F8B0 /* EndGameScene.h */,
+				19B6E97C175227FB0095F8B0 /* Game */,
+				19B6E986175227FB0095F8B0 /* TicTacToeScene.cpp */,
+				19B6E987175227FB0095F8B0 /* TicTacToeScene.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -223,6 +224,7 @@
 		41CD6C6115BF7556005E6F29 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				19B6E973175227A40095F8B0 /* images */,
 				1514DA3C163004980095A81C /* ipad */,
 				1514DA3D163004980095A81C /* ipadhd */,
 				1514DA3E163004980095A81C /* iphone */,
@@ -321,9 +323,9 @@
 				1514DA3F163004980095A81C /* ipad in Resources */,
 				1514DA40163004980095A81C /* ipadhd in Resources */,
 				1514DA41163004980095A81C /* iphone in Resources */,
-				19E65782174FBE8900CE26D7 /* square.png in Resources */,
-				19E65785174FCCEF00CE26D7 /* nought.png in Resources */,
-				19E65786174FCCEF00CE26D7 /* cross.png in Resources */,
+				19B6E977175227A40095F8B0 /* cross.png in Resources */,
+				19B6E978175227A40095F8B0 /* nought.png in Resources */,
+				19B6E979175227A40095F8B0 /* square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,12 +340,12 @@
 				41CD6C6615BF7574005E6F29 /* main.m in Sources */,
 				41CD6C7515BF76FB005E6F29 /* AppDelegate.cpp in Sources */,
 				41CD6C7615BF76FB005E6F29 /* HelloWorldScene.cpp in Sources */,
-				19E65777174FB94200CE26D7 /* ai.cpp in Sources */,
-				19E65778174FB94200CE26D7 /* board.cpp in Sources */,
-				19E65779174FB94200CE26D7 /* box.cpp in Sources */,
-				19E6577A174FB94200CE26D7 /* manager.cpp in Sources */,
-				19E6577D174FB9C200CE26D7 /* TicTacToeScene.cpp in Sources */,
-				19E6578C175020E300CE26D7 /* EndGameScene.cpp in Sources */,
+				19B6E988175227FB0095F8B0 /* EndGameScene.cpp in Sources */,
+				19B6E989175227FB0095F8B0 /* ai.cpp in Sources */,
+				19B6E98A175227FB0095F8B0 /* board.cpp in Sources */,
+				19B6E98B175227FB0095F8B0 /* box.cpp in Sources */,
+				19B6E98C175227FB0095F8B0 /* manager.cpp in Sources */,
+				19B6E98D175227FB0095F8B0 /* TicTacToeScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
